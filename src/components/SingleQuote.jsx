@@ -21,7 +21,7 @@ export default function SingleQuote({ quoteData, handleCheckRemove }) {
     <article className="single-quote">
       <div className="single-quote-article">
         <input type="hidden" name="quote-id" value={quoteData._id}/>
-        <img src="/quotation-mark.png" alt="" width="130" />
+        <img src="/quotes-generator/quotation-mark.png" alt="" width="130" />
         <div
           className="quote-content"
           style={{ fontSize: "2rem" }}
