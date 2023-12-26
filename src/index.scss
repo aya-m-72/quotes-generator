@@ -1,0 +1,94 @@
+$gray: rgb(72, 72, 72);
+$black: rgb(38, 38, 38);
+$green:rgb(127,255,0);
+$red:rgb(255,51,51);
+
+* {
+  box-sizing: border-box;
+}
+body {
+  margin:0;
+  background-color: $black;
+  color:beige;
+}
+#control-panel {
+  position: fixed;
+  top:0;
+  right: 0;
+  width:30vw;
+  height:100vh;
+  background-color: $gray;
+  padding: 1rem;
+}
+#viewer {
+  width: 70vw;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.single-quote {
+  margin:1rem;
+  display: flex;
+  gap:1rem;
+}
+.single-quote-article {
+  width:540px;
+  height: 675px;
+  background: url('/black-bg.jpg');
+  background-repeat: no-repeat;
+  background-position:center;
+  background-size: cover;
+  padding: 3rem;
+  font-size: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap:3rem;
+  text-align: center;
+  font-family: montserrat, sans-serif;
+  font-weight: 500;
+
+  .quote-author {
+    font-size: 1rem;
+    font-weight: 400;
+    font-style: italic;
+  }
+}
+.btn-primary {
+  background-color: $black;
+  border:none;
+}
+.check-remove {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+
+  button {
+    border-radius: 50%;
+    color: $black;
+    border:none;
+  }
+  button:focus {
+    outline: none;
+  }
+}
+.def-on {
+  background-color: $gray;
+}
+.def-off {
+  background-color: $gray;
+}
+.on {
+  background-color: $green;
+}
+.off {
+  background-color: $red;
+}
+.def-on:hover {
+  background-color: $green;
+}
+.def-off:hover {
+  background-color: $red;
+}
