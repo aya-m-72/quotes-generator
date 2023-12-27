@@ -6,7 +6,7 @@ This web app represents a simple interface to interact with [quotable api](https
 
 **This web app is hosted on github pages** <https://aya-m-72.github.io/quotes-generator/>
 
-#### Interface:
+**Interface**:
 - selecting a category:
     - if not specified, it's going to be random.
     - next to each category a number represents the number of quotes available in that category.
@@ -34,3 +34,6 @@ This web app represents a simple interface to interact with [quotable api](https
 
 - download button:
     - if there isn't any quote checked will download all the quotes displayed on the viewer. Otherwise, it downloads the checked one(s).
+
+**Technologies used:** 
+- react vite, html, css, sass, javascript
